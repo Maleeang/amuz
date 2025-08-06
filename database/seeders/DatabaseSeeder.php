@@ -174,7 +174,7 @@ class DatabaseSeeder extends Seeder
     {
         $users = User::where('email', '!=', 'admin@amuz.com')->get();
         $products = Product::all();
-        $statuses = [Order::STATUS_PENDING, Order::STATUS_PAID, Order::STATUS_SHIPPED, Order::STATUS_DELIVERED, Order::STATUS_CANCELLED];
+        $statuses = [Order::STATUS_PENDING, Order::STATUS_PAID, Order::STATUS_SHIPPED, Order::STATUS_CANCELLED];
         
         // 50개의 주문 생성
         for ($i = 0; $i < 50; $i++) {
