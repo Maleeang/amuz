@@ -1,0 +1,47 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+    
+    /* Elegant 색상 팔레트 */
+    --color-elegant-50: #f8f9f8;
+    --color-elegant-100: #f1f3f1;
+    --color-elegant-200: #e3e7e3;
+    --color-elegant-300: #d1d7d1;
+    --color-elegant-400: #b8c2b8;
+    --color-elegant-500: #9ba79b;
+    --color-elegant-600: #727c72;
+    --color-elegant-700: #5a635a;
+    --color-elegant-800: #4c534c;
+    --color-elegant-900: #3d433d;
+    
+    /* Warm 색상 팔레트 */
+    --color-warm-50: #fefaf8;
+    --color-warm-100: #fdf5f1;
+    --color-warm-200: #fbe8e0;
+    --color-warm-300: #f7d4c7;
+    --color-warm-400: #f2b8a3;
+    --color-warm-500: #ec9677;
+    --color-warm-600: #e67a55;
+    --color-warm-700: #d85f3a;
+    --color-warm-800: #b84d31;
+    --color-warm-900: #96402a;
+    
+    /* Soft 색상 팔레트 */
+    --color-soft-50: #fafbfa;
+    --color-soft-100: #f5f7f5;
+    --color-soft-200: #eef2ee;
+    --color-soft-300: #e0e8e0;
+    --color-soft-400: #c8d4c8;
+    --color-soft-500: #a8b8a8;
+    --color-soft-600: #8a9a8a;
+    --color-soft-700: #6b7a6b;
+    --color-soft-800: #5a675a;
+    --color-soft-900: #4a554a;
+}
